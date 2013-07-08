@@ -1,14 +1,21 @@
 ---
 layout: page
-title: n/a
-tagline: rnd()
+title: rnd()
+tagline: Blum Blum Shub
 ---
 {% include JB/setup %}
 
 
-This is an experimental blog by [Santeri
-Paavolainen](https://github.com/santtu). You can find a bit more
-information on what I mean by "experimental" in [here](xxx).
+This is an experimental blog by
+[Santeri Paavolainen](https://github.com/santtu). You can find a bit
+more information on what I mean by "experimental" in [here]({% post_url 2013-04-12-can-you-blog-in-github %}) and [here]({% post_url 2013-07-08-jekyll-and-hyde %}).
+
+My basic bio:
+
+* [github.com/santtu](https://github.com/santtu)
+* [twitter.com/paavolainen](https://twitter.com/paavolainen)
+* [linkedin.com/in/paavolainen](http://fi.linkedin.com/in/paavolainen)
+* [santtu@iki.fi](email:santtu@iki.fi)
 
 ## Posts
 
