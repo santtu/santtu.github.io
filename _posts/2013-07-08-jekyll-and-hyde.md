@@ -55,13 +55,11 @@ So, if you're thinking about creating your blog on GitHub pages using
 Jekyll, here's what I found out:
 **[Jekyll Bootstrap](http://jekyllbootstrap.com/)**. Quickly, do this!
 
-```
-$ sudo gem install jekyll
-$ git clone https://github.com/plusjade/jekyll-bootstrap.git USERNAME.github.io
-$ cd USERNAME.github.io
-$ rake post title="Hello World"
-$ jekyll server -w
-```
+    $ sudo gem install jekyll
+    $ git clone https://github.com/plusjade/jekyll-bootstrap.git USERNAME.github.io
+    $ cd USERNAME.github.io
+    $ rake post title="Hello World"
+    $ jekyll server -w
 
 and then browse to `http://localhost:4000`. You'll see an example post
 and the one you just created before (*Hello World*). You'll find the
@@ -74,10 +72,8 @@ under github — you'll need to 1)
 update repository url at your checked-out Jekyll bootstrap repository
 and 3) push.
 
-```
-$ git remote set-url origin git@github.com:USERNAME/USERNAME.github.io.git
-$ git push origin master
-```
+    $ git remote set-url origin git@github.com:USERNAME/USERNAME.github.io.git
+    $ git push origin master
 
 Note that `USERNAME` really should be your **own** github username
 when you push. Earlier when cloning it was just a directory name, but
