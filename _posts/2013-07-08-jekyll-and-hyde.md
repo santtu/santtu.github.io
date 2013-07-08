@@ -99,3 +99,14 @@ username>.github.io` repository.
 
 After you're done pushing, wait a while and navigate to
 `http://USERNAME.github.io/`.
+
+P.S. You can take a look [at the
+repository](https://github.com/santtu/santtu.github.io/) for this blog.
+
+P.P.S. If you want to keep your blog's version history clean from
+Jekyll Bootstrap's commit history, do `cd USERNAME.github.io; rm -rf
+.git; git init; git add .`, commit changes with `git commit -m
+'Historyless clone from Jekyll Bootstrap.'` update origin with `git
+remote add origin git@github.com:USERNAME/USERNAME.github.io.git` and
+do `git push -u origin master`. Just *don't* do this if you ever wish
+to merge updates from the original `jekyll-bootstrap` repository.
