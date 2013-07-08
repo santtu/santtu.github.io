@@ -69,7 +69,7 @@ sample post in `_posts` directory. Edit it. Reload the page in
 browser. **You can already see results!**
 
 The next step is to push your cloned repository to your own account
-under github -- you'll need to 1)
+under github — you'll need to 1)
 [create the repository](https://github.com/repositories/new), 2)
 update repository url at your checked-out Jekyll bootstrap repository
 and 3) push.
@@ -85,7 +85,7 @@ in `set-url` it **must** match your github username. *You won't see
 your pages in github pages* unless you push to `<your
 username>.github.io` repository.
 
-> By the way --- Jekyll bootstrap uses `USERNAME.github.com` in its
+> By the way — Jekyll bootstrap uses `USERNAME.github.com` in its
 > examples, yet GitHub Pages keeps talking about `USERNAME.github.io`
 > (*com* vs. *io*). Apparently there was a
 > [renaming operation](https://github.com/blog/1452-new-github-pages-domain-github-io)

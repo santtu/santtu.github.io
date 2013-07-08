@@ -5,7 +5,7 @@ title: "Can you blog in github?"
 
 I've written quite a lot in my life. Some of it has ended up in blogs
 (now since gone, although I have archive copies), alas most
-not. Mostly what I write is targeted towards a small audience --
+not. Mostly what I write is targeted towards a small audience —
 customers, co-workers, friends. For those venues a blog isn't actually
 the best way (customers like .doc files, for co-workers email or
 intranet work just fine, and Facebook and Twitter are great for
@@ -21,7 +21,7 @@ myself, either.
 
 While this was swirling around my head (in a background process), I
 thought about github. It is public. It can natively render
-restructuredtext files natively to HTML -- perhaps not so pretty, but
+restructuredtext files natively to HTML — perhaps not so pretty, but
 what the hell. Thanks got git itself, all of the data would be
 version-controlled and securely replicated. Would that work?
 
