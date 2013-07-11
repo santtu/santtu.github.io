@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Can you blog in github?"
+tags: ["blogging", "github"]
 ---
 
 I've written quite a lot in my life. Some of it has ended up in blogs

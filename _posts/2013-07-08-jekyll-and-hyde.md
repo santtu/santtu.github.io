@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Enter Jekyll (where's Hyde?)"
+tags: ["blogging", "github", "jekyll"]
 ---
 
 Live and learn. [Earlier]({% post_url 2013-04-12-can-you-blog-in-github %})
