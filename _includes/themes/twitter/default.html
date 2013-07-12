@@ -27,9 +27,7 @@
   -->
 
     <!-- atom & rss feed -->
-    <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="{{ site.title }} (Atom)">
-    <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="{{ site.title }} (RSS)">
-
+    <link href="http://feeds.feedburner.com/random-title-working-thoughts" type="application/rss+xml" rel="alternate" title="{{ site.title }}">
   </head>
 
   <body>
@@ -53,7 +51,8 @@
       </div>
       <hr>
       <footer>
-        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
+	<p><a href="http://feeds.feedburner.com/random-title-working-thoughts" rel="alternate" type="application/rss+xml"><img src="/images/feed-icon16x16-gray.png" alt="" style="vertical-align:middle;border:0"/></a>&nbsp;<a href="http://feeds.feedburner.com/random-title-working-thoughts" rel="alternate" type="application/rss+xml"></a>
+	  &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
           with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
           and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
         </p>
