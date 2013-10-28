@@ -63,3 +63,14 @@
   background: #57A957;
   border: 1px solid #4c964d;
   color: #FFF; }
+
+.content table {
+    margin: 1em 0;
+}
+
+.content table td, .content table th {
+    border: 1px solid #dddddd;
+    padding: 0.25em;
+    vertical-align: top;
+    text-align: left;
+}
