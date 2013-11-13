@@ -185,7 +185,7 @@ it's either their way, or the highway. You call some other vendors,
 but in the end you're really negotiating just different shades of
 blue. So you sign.
 
-Then they blew up. You go out of business. (The contract? Yeah, good
+Then they blow up. You go out of business. (The contract? Yeah, good
 luck in trying. Even if you win, their standard contract you had to
 accept doesn't give you back the business you lost. Remember, you're a
 startup, you don't have the capital to survive someone else's
@@ -193,7 +193,7 @@ fuck-up. Your house was next to my tinderbox.)
 
 ### When cloud computing comes around
 
-You're a startup. You need IT service. You got to a cloud
+You're a startup. You need IT service. You go to a cloud
 provider. They give you just one deal, the same deal everybody
 gets. You can't negotiate — it's either the cloud way, or get a TARDIS
 and go back 10 years (previous chapter).
