@@ -172,7 +172,7 @@ Alternatively said:
   service provider tries to minimize negotiations with the clients by
   providing a limited set of contract options for its clients.
 
-So WTBF about startups?
+<a name="startups"></a>So WTBF about startups?
 -----------------------
 
 Well think about it.
