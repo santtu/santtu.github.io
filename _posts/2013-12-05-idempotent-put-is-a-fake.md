@@ -16,7 +16,9 @@ I've seen a lot of people state that `PUT /resource/<id>` should
 create the resource if it does not exist. Like
 [here](http://www.slideshare.net/stormpath/rest-jsonapis/23),
 [here](http://stackoverflow.com/a/12957114/779129) and
-[here](http://stackoverflow.com/a/630475/779129) and and and.
+[here](http://stackoverflow.com/a/630475/779129) and
+[here](https://github.com/toastdriven/django-tastypie/blob/master/tastypie/resources.py#L1386)
+and and.
 
 This is absolutely **wrong**. This is a misinterpretation of
 *idempotency*. Following this logic to the extreme causes both
