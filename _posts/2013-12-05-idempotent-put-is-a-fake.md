@@ -6,7 +6,7 @@ tags: ["rest", "web"]
 ---
 
 Previously I poured my thoughts on [REST/JSON protocol differences](
-{% post_url 2013-04-12-can-you-blog-in-github %}). I am still researching
+{% post_url 2013-12-04-rest-mess %}). I am still researching
 on how different server and client frameworks work, but as an
 interlude I'll comment on the interpretation of the `PUT` operation in
 relation to its use on "RESTful" APIs.
