@@ -33,7 +33,7 @@ original code to coffeescript was straightforward:
 App.FromNowView = Ember.View.extend
   nextTick: null
   tagName: 'time'
-  template: Ember.Handlebars.compile '{{view.output}}'
+  template: Ember.Handlebars.compile '{% raw %}{{view.output}}{% endraw %}'
   output: (() -> (moment @get('value')).fromNow(true)).property('value')
   tick: () ->
     @nextTick = Ember.run.later this, (() ->
