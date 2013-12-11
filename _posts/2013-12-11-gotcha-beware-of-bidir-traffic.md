@@ -134,9 +134,9 @@ In the template the statement `valueBinding="stateUpdated"` creates
 the two-way fat gray arrow binding (top row). The binding from
 `App.FromNowView.value` to `App.FromNowView.output` is a one-way
 binding and comes from the use of `property('value')` on the `output`
-function (right column). Finally the `App.FromNowView.output` to
-`{% raw %}{{view.output}}{% endraw %}` comes from somewhere deep inside
-the templating system (bottom row).
+function (right column). Finally the `App.FromNowView.output` binding
+to `{% raw %}{{view.output}}{% endraw %}` comes from somewhere deep
+inside the templating system (bottom row).
 
 The initial value is loaded by Ember Data and is propagated from top
 left corner by the green arrows. First, `Project.stateUpdated` is
@@ -152,18 +152,18 @@ every second, and it will call `notifyPropertyChange('value')` which
 in turn causes **two** propagations to occur — one back to the
 **original** `Project.stateUpdated` value thus **overwriting it**, and
 the other to propagate to the output template. This meant that the
-output value was correctly updated as time passed, but any changes in
+output value was correctly updated as time passed, but any change in
 the actual `stateUpdated` value as reported by the backend was **not**
 reflected in the human-readable output.
 
 <small>(I'm not sure, but I think Ember's idea is that since I've
-overwritten the values myself it will keep them around until you call
+overwritten the values myself it will keep them around until I call
 either `save` or `rollback`. I'm not sure whether it is sensible to
 call `reload` at all when you have uncommited changes in the
 model.)</small>
 
 Now that I had understood the true problem the solution came
-immediately. In the application I just wanted to ensure that updated
+immediately. In the application I just wanted to ensure that updates
 on the bound value are propagated to `App.FromNowView.output`, which
 was already automatically updating when the bound value was
 changed. It also has to be refreshed as time progresses ("a few
