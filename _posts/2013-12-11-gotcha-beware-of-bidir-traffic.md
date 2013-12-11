@@ -190,6 +190,6 @@ With this simple change everything was finally made good!
 
 So what's the lesson learned? When using Ember, *you need to
 understand how a value is bound, to where, and what type of binding
-makes sense for any particular situation*. Also don't ue
+makes sense for any particular situation*. Also don't use
 `@notifyPropertyChange` indiscriminantly on values that are bound
 *from outside the caller's control*.
