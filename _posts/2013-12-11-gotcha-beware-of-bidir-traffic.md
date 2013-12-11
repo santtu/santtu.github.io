@@ -134,8 +134,8 @@ In the template the statement `valueBinding="stateUpdated"` creates
 the two-way fat gray arrow binding (top row). The binding from
 `App.FromNowView.value` to `App.FromNowView.output` is a one-way
 binding and comes from the use of `property('value')` on the `output`
-function (right column). Finally the `App.FromNowView.output` to `{%
-raw %}{{view.output}}{% endraw %}` comes from somewhere deep inside
+function (right column). Finally the `App.FromNowView.output` to
+`{% raw %}{{view.output}}{% endraw %}` comes from somewhere deep inside
 the templating system (bottom row).
 
 The initial value is loaded by Ember Data and is propagated from top
