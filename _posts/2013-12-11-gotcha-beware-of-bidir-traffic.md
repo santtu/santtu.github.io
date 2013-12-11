@@ -9,7 +9,7 @@ tags: ["emberjs"]
   [coffeescript](http://coffeescript.org/) instead of plain
   javascript. If you don't know coffeescript here's a quick cheat
   sheet: `@foo` ≅ `this.foo` and `() -> stmt` ≅ `function () { stmt
-  }`. Additionally text in curly braces `\{\{…\}\}` is Ember's
+  }`. Additionally text in curly braces `{{…}}` is Ember's
   [templating
   language](http://emberjs.com/guides/templates/handlebars-basics/).)
 
@@ -47,7 +47,7 @@ App.FromNowView = Ember.View.extend
 and it was used like this:
 
 ```html
-\{\{view "App.FromNowView" valueBinding="stateUpdated"\}\}
+{{view "App.FromNowView" valueBinding="stateUpdated"}}
 ```
 
 Which worked great when the page was first loaded but **it failed to
@@ -135,14 +135,14 @@ the two-way fat gray arrow binding (top row). The binding from
 `App.FromNowView.value` to `App.FromNowView.output` is a one-way
 binding and comes from the use of `property('value')` on the `output`
 function (right column). Finally the `App.FromNowView.output` to
-`\{\{view.output\}\}` comes from somewhere deep inside the templating
+`{{view.output}}` comes from somewhere deep inside the templating
 system (bottom row).
 
 The initial value is loaded by Ember Data and is propagated from top
 left corner by the green arrows. First, `Project.stateUpdated` is
 changed, which then propagates to `App.FromNowView.value`, which in
 turn causes the value of `App.FromNowView.output` to change, which
-finally causes the `\{\{view.output\}\}` template to be
+finally causes the `{{view.output}}` template to be
 (re-)rendered. This will in turn cause the `get` chain to propagate
 back in the chain, finally resulting in the nicely formatted time
 delta value to be written into the HTML page for user to see.
