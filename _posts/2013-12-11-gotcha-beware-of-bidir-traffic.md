@@ -29,7 +29,7 @@ long time. I had used
 to implement a "since state change" time display. Converting the
 original code to coffeescript was straightforward:
 
-```coffeescript
+```coffee
 App.FromNowView = Ember.View.extend
   nextTick: null
   tagName: 'time'
@@ -110,7 +110,7 @@ already overwritten it myself**.
 
 This is the offending line:
 
-```coffeescript
+```coffee
       @notifyPropertyChange('value')
 ```
 
@@ -179,7 +179,7 @@ all changes in the original model are **also** honored. The change is
 trivially simple with changing the property change event fired on the
 *output* element:
 
-```coffeescript
+```coffee
   tick: () ->
     @nextTick = Ember.run.later this, (() ->
       @notifyPropertyChange('output')
