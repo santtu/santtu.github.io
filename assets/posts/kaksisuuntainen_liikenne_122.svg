@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="450"
+   height="400"
+   id="svg1551"
+   sodipodi:version="0.32"
+   inkscape:version="0.43"
+   version="1.0"
+   sodipodi:docbase="/home/tomilepp/svg/liikennemerkit"
+   sodipodi:docname="Kaksisuuntainen liikenne 122.svg">
+  <defs
+     id="defs1553" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35355339"
+     inkscape:cx="234"
+     inkscape:cy="303.30308"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="760"
+     inkscape:window-height="544"
+     inkscape:window-x="290"
+     inkscape:window-y="11" />
+  <metadata
+     id="metadata1556">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path1634"
+       d="M 430.792,396.6079 C 446.072,396.1179 453.072,381.1579 446.802,368.8979 L 241.032,12.6279 C 232.732,-0.5021 216.552,1.1579 209.072,12.6279 L 3.302,368.8979 C -2.858,380.1779 3.272,394.3179 16.922,396.4879 L 430.792,396.6079"
+       style="fill:#ffd90f;fill-rule:evenodd;stroke:none" />
+    <path
+       id="path1636"
+       d="M 431.262,391.3579 C 441.772,390.7479 446.982,379.8079 442.262,371.5279 L 236.492,15.2479 C 231.562,6.8479 219.142,6.0779 213.672,15.2479 L 7.842,371.5279 C 2.802,379.7279 9.002,391.5079 19.312,391.3479 L 431.262,391.3579"
+       style="fill:#ff163c;fill-rule:evenodd;stroke:none" />
+    <path
+       id="path1638"
+       d="M 394.182,357.0079 L 225.082,64.1579 L 55.932,357.0079 L 394.182,357.0079"
+       style="fill:#ffd90f;fill-rule:evenodd;stroke:none" />
+    <path
+       id="path1640"
+       d="M 156.492,203.9079 L 182.912,203.9079 L 182.912,298.9579 L 217.182,298.9579 L 169.672,346.5179 L 122.102,298.9579 L 156.492,298.9579 L 156.492,203.9079"
+       style="fill:#000000;fill-rule:evenodd;stroke:none" />
+    <path
+       id="path1642"
+       d="M 254.212,335.9179 L 280.632,335.9179 L 280.632,240.7979 L 314.962,240.7979 L 267.392,193.2979 L 219.822,240.7979 L 254.212,240.7979 L 254.212,335.9179"
+       style="fill:#000000;fill-rule:evenodd;stroke:none" />
+  </g>
+</svg>
