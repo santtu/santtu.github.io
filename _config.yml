@@ -12,12 +12,15 @@ markdown: rdiscount
 #
 title : Random Title, Working Thoughts
 tagline: rnd()
+production_url: http://santtu.iki.fi
+atom_path : atom.xml
+rss_path : rss.xml
 author :
   name : Santeri Paavolainen
   email : santtu@iki.fi
   github : santtu
   twitter : paavolainen
-#  feedburner : feedname
+  feedburner : random-title-working-thoughts
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
