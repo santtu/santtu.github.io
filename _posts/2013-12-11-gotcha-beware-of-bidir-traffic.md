@@ -27,7 +27,8 @@ Anyway, I hit one major gotcha that had me scratching my head for a
 long time. I had used
 [ember-time](https://github.com/jgwhite/ember-time) as a basis on how
 to implement a "since state change" time display. Converting the
-original code to coffeescript was straightforward:
+original code to coffeescript was straightforward (but see
+[below](#update) for an update):
 
 ```coffee
 App.FromNowView = Ember.View.extend
@@ -193,3 +194,8 @@ understand how a value is bound, to where, and what type of binding
 makes sense for any particular situation*. Also don't use
 `@notifyPropertyChange` indiscriminantly on values that are bound
 *from outside the caller's control*.
+
+<a name="update"></a>**Update:** Ember-time itself has since been fixed.  You'll need to
+look at
+[bf3383c6](https://github.com/jgwhite/ember-time/tree/bf3383c691bd7f60aafb96ddd7926be3196f1dfd)
+or earlier commit to see the original version.
