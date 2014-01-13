@@ -126,7 +126,7 @@ would be satisfied with g2.2xlarge. There are two potential outcomes:
 
    This is problematic for you, of course, but it might be a publicity
    problem for AWS, too ("AWS unable to meet up to customer demand!"
-   would the ~tabloids~ blogosphere scream.)
+   would the <strike>tabloids</strike> blogosphere scream.)
 
 AWS is going to handle this situation somehow. It is possible to
 control demand via pricing. Future GPUs may support GPU virtualization
