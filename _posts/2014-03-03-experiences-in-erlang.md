@@ -129,7 +129,7 @@ won't be my choice as a default go-to language in the future:
   "0\.8\.5", {git, "https://github.com/davisp/jiffy", {tag,
   "0.8.5"}}}` into `rebar.config` *over and over again*. This is not a
   problem for large projects where dependency setup is one-time-only
-  affair, but when doing smaller or one-off programming jobs it does
+  affair, but when doing smaller or one-off programming jobs it would
   add up quickly to the workload.
 
 * Horrendous syntax for structured data. Changing a field? `NewStruct
