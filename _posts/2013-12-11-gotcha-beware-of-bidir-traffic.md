@@ -13,10 +13,9 @@ tags: ["emberjs"]
   [templating
   language](http://emberjs.com/guides/templates/handlebars-basics/).)
 
-<figure style="margin: 0 auto; width: 35%">
-![Finnish road sign 122, courtesy of Wikimedia Commons](http://upload.wikimedia.org/wikipedia/commons/c/cb/Kaksisuuntainen_liikenne_122.svg)
-<figcaption>Finnish road sign number 122, "Two-way traffic". (Source: [Wikimedia Commons](http://commons.wikimedia.org/wiki/File:Kaksisuuntainen_liikenne_122.svg))</figcaption>
-</figure>
+{% figure http://upload.wikimedia.org/wikipedia/commons/c/cb/Kaksisuuntainen_liikenne_122.svg %}
+<a href="http://upload.wikimedia.org/wikipedia/commons/c/cb/Kaksisuuntainen_liikenne_122.svg">Finnish road sign 122, courtesy of Wikimedia Commons</a>
+{% endfigure %}
 
 While [doing a retry on Ember]({% post_url 2013-12-11-retry-on-ember %}) for freezr user interface, I hit a
 problem I'd like to share with you. I didn't find help on the internet

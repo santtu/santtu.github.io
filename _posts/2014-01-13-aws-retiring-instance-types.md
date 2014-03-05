@@ -26,10 +26,9 @@ perfect solution but just was not yet available. Similarly the
 introduction of PIOPS and SSDs was a godsend for database-type
 workloads.
 
-<figure style="margin: 0 auto; width: 80%">
-![*Death of Instances* by … errr, actually it's *Takiyasha the Witch and the Skeleton Spectre* by Utagawa Kuniyoshi (Image source: [Wikimedia commons](http://commons.wikimedia.org/wiki/File:Takiyasha_the_Witch_and_the_Skeleton_Spectre.jpg).)]({{site.url}}/assets/posts/Takiyasha_the_Witch_and_the_Skeleton_Spectre.jpg)
-<figcaption>*Death of Instances* by … errr, actually it's *Takiyasha the Witch and the Skeleton Spectre* by Utagawa Kuniyoshi (Image source: [Wikimedia commons](http://commons.wikimedia.org/wiki/File:Takiyasha_the_Witch_and_the_Skeleton_Spectre.jpg).)</figcaption>
-</figure>
+{% figure /assets/posts/Takiyasha_the_Witch_and_the_Skeleton_Spectre.jpg %}
+<em>Death of Instances</em> by … errr, actually it's <em>Takiyasha the Witch and the Skeleton Spectre</em> by Utagawa Kuniyoshi. (Image source: <a href="http://commons.wikimedia.org/wiki/File:Takiyasha_the_Witch_and_the_Skeleton_Spectre.jpg">Wikimedia commons</a>)
+{% endfigure %}
 
 ## Hardware generations
 
