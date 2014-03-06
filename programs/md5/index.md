@@ -3,7 +3,6 @@ layout: page
 title: fi.iki.santtu.md5
 tagline: Where old software goes to die
 exclude_page: true
-alias: /md5/index.html
 ---
 {% include JB/setup %}
 
