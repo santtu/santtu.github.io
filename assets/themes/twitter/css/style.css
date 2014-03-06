@@ -74,3 +74,22 @@
     vertical-align: top;
     text-align: left;
 }
+
+figure {
+    margin: 8pt auto;
+    width: 80%;
+    font-style: italic;
+}
+
+figure em {
+    font-style: normal;
+}
+
+figure img {
+    display: block;
+    margin: 0 auto;
+}
+
+figcaption {
+    margin-top: 4pt;
+}
