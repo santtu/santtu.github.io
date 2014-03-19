@@ -398,3 +398,5 @@ research papers I've found useful:
 * [Deconstructing Amazon EC2 Spot Instance
   Pricing](http://dx.doi.org/10.1145/2509413.2509416) by Ben-Yehuda et
   al — remember to read epilogue on page 19!
+
+Here's the [next post in the series]({% post_url 2014-03-19-ec2-spot-usage %}).

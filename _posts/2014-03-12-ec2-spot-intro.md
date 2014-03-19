@@ -20,7 +20,7 @@ posts about AWS spot instances and the spot instance market.
 I've split these posts into the following topics:
 
 1. [Overview of spot instances and the spot instance market]({% post_url 2014-03-12-ec2-spot-instances %})
-2. How to actually use spot instances (in progress)
+2. [How to actually use spot instances]({% post_url 2014-03-19-ec2-spot-usage %})
 3. Why spot market exists, where do spot instances come from and what
    drives spot instance prices (in progress)
 4. What can the spot market tell about AWS's capacity changes (in progress)
