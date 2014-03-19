@@ -78,11 +78,10 @@
 figure {
     margin: 8pt auto;
     width: 80%;
-    font-style: italic;
 }
 
-figure em {
-    font-style: normal;
+figure.full {
+    width: 100% !important;
 }
 
 figure img {
@@ -92,4 +91,9 @@ figure img {
 
 figcaption {
     margin-top: 4pt;
+    font-style: italic;
+}
+
+figcaption em {
+    font-style: normal;
 }

@@ -182,7 +182,7 @@ To recap:
 
 </figure>
 
-### <a href="si-spot-availability"></a>Instance availability is determined by bid prices
+### <a name="si-spot-availability"></a>Instance availability is determined by bid prices
 
 > **IMPORTANT**: All of the graphs below use *post hoc* analysis. The
   theoretical maximums on availability and price savings would be
@@ -293,7 +293,7 @@ To recap:
 * **You control your spot instance's availability through bid
   prices.**
 
-### Instances at $999.99/hour
+### <a name="si-spot-999-dollars"></a>Instances at $999.99/hour
 
 On September 2011 there was a huge price increase in one zone of the
 `us-east-1` region for `m2.2xlarge` instances where the spot market
