@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mechanics behind the spot instance market"
+title: "Mechanics of the spot instance market"
 tagline: "Where is the root of spot instances?"
 tags: ["aws", "ec2", "spot instances"]
 ---
