@@ -491,3 +491,5 @@ Did I get *that* through?
   (Chohan et al, 2010) is a good read. It also notes that under some
   conditions adding spot instances (that will be terminated) actually
   increases Hadoop job completion time and its total cost.
+
+Here's the [next post in the series]({% post_url 2014-03-20-ec2-spot-market %}).
