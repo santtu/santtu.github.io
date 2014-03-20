@@ -97,3 +97,17 @@ figcaption {
 figcaption em {
     font-style: normal;
 }
+
+figure.full figcaption {
+    margin: 0 10%;
+}
+
+figure .double {
+    margin: 0 1%;
+    float: left;
+    width: 48%;
+}
+
+figure + p {
+    clear: left;
+}
