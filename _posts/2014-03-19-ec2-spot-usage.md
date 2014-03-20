@@ -2,7 +2,7 @@
 layout: post
 title: "Using spot instances"
 tagline: ""
-tags: ["aws", "ec2", "spot market", "pricing", "instance retirement"]
+tags: ["aws", "ec2", "spot instances"]
 ---
 
 (You might want first see the [introduction to this series of
@@ -252,7 +252,7 @@ using:
 Note that bidding high is a workable strategy only as long as most
 **don't** bid high.
 
-#### Bidding over the on-demand price
+#### <a name="si-spot-over-bidding"></a>Bidding over the on-demand price
 
 I want to emphasize the following:
 
