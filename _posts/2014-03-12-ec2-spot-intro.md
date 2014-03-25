@@ -23,7 +23,8 @@ I've split these posts into the following topics:
 2. [How to actually use spot instances]({% post_url 2014-03-19-ec2-spot-usage %})
 3. [Why spot market exists, where do spot instances come from and what
    drives spot instance prices]({% post_url 2014-03-20-ec2-spot-market %})
-4. What can the spot market tell about AWS's capacity changes (in progress)
+4. [Interlude into discussion of spot price minimums]({% post_url 2014-03-25-ec2-spot-price-minimum %})
+5. What can the spot market tell about AWS's capacity changes (in progress)
 
 Most of the information I'm going to present is collected from several
 sources which themselves have done excellent research and provide

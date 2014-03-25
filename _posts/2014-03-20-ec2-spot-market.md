@@ -266,13 +266,18 @@ a spot instance price. What are the inputs?
 
   **Demand for EC2 instances affects spot price.**
 
-* There is also a *minimum bid price* set by AWS. If you try to bid
+* <strike>There is also a *minimum bid price* set by AWS. If you try to bid
   below this you'll get a `price-too-low` error with a message *"Your
   Spot request price of 0.02 is lower than the minimum required Spot
   request fulfillment price of 0.403."* (numbers naturally vary).
 
   **There is a minimum spot price**, which varies by instance type and
-  region. (I am not sure about zones.)
+  region. (I am not sure about zones.)</strike>
+
+  (Updated 2014-03-25) Wrong wrong wrong! The `price-too-low` message
+  is really only talking about current spot price. My bad. However
+  there still appears to be minimum spot prices which I go through
+  [in the next post in this series]({% post_url 2014-03-25-ec2-spot-price-minimum %}).
 
 * AWS has a default maximum bid limit of 4x on-demand price *but this
   is a soft limit and can be raised or removed*. The maximum relative
@@ -539,3 +544,5 @@ suddenly *without any change in the bidding pool*.
 
 But you already knew that spot market is volatile, didn't you? No new
 news, then.
+
+Here's the [next post in the series]({% post_url 2014-03-25-ec2-spot-price-minimum %}).
