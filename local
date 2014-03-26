@@ -1,2 +1,2 @@
 #!/bin/bash -e
-jekyll serve --watch --drafts
+jekyll serve --watch --config _config.yml,_local_config.yml "$@"
