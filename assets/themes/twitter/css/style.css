@@ -111,3 +111,10 @@ figure .double {
 figure + p {
     clear: left;
 }
+
+p + small, p + p > small:first-child, .remark {
+    display: block;
+    font-size: smaller;
+    margin-left: 2%;
+    margin-right: 2%;
+}
