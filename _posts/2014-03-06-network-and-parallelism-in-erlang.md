@@ -12,13 +12,13 @@ experiences. This comes from my jab at [Erlang programming](
 writing.
 
 With subtle I do mean *subtle*. It took a specific set of conditions
-to manifest the bug. It had a tiny time time window at system startup
-where it could be triggered and never again after that. I finally
-could reproduce the bug somewhat reliably by starting a total of 1024
-node processes in less than 1/4 second, in parallel, in multiple
-16-core physical servers— and even then it showed up in only for one
-or two network connections out of 10240 connections that were created
-during the system initialization.
+to manifest the bug. It had a tiny time window at system startup where
+it could be triggered and never again after that. I finally could
+reproduce the bug somewhat reliably by starting a total of 1024 node
+processes in less than 1/4 second, in parallel, in multiple 16-core
+physical servers— and even then it showed up in only for one or two
+network connections out of 10240 connections that were created during
+the system initialization.
 
 > As most bugs go, this is obvious once you realize the underlying
 > problem. For long-time Erlang programmers this might be a known
@@ -44,11 +44,11 @@ There are two ways to process incoming traffic on a socket in Erlang:
   runtime will send incoming network traffic to as messages to the
   socket's controlling process.
 
-**I decided to use this approach.** the latter method. It fits nicely
-into Erlang's view of the world where asynchronous interactions occur
-via messaging. It also allows nice integration with other processes
-since you can handle **both** Erlang-world messages and
-non-Erlang-world interactions in the same `receive` loop.
+**I decided to use the latter method.** It fits nicely into Erlang's
+view of the world where asynchronous interactions occur via
+messaging. It also allows nice integration with other processes since
+you can handle **both** Erlang-world messages and non-Erlang-world
+interactions in the same `receive` loop.
 
 ### Using an active socket in a network client
 
