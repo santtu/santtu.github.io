@@ -42,7 +42,7 @@ live within 100 meters), because the **loss to me** of your house
 burning is zero → my risk is zero too.
 
 In larger businesses and government agencies it is common to push
-enterprise's risk ("my") risk to the vendor ("your risk") through
+enterprise's risk ("my") to the vendor ("your risk") through
 contractual means. In areas of IT service procurement this means the
 service provider assumes liabilities on not meeting service level
 agreements / deviating from rules and regulations / other failures. In
