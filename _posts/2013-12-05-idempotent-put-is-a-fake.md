@@ -167,12 +167,15 @@ and it still stays an idempotent operation (PUT on non-existent
 resource would result in the same result both times – a failure).
 
 At this point it should be clear that saying that "PUT should create
-resources because of idempotency" is a strawman argument because
+resources because of idempotency" is a false argument because
 idempotency holds even if this is not the case.
 
 Which way PUT swings is a design choice. A choice.
 
 I want to convince you that it should **not** create resources.
+
+<small>(Ed: Changed "strawman argument" to "false argument"
+above. Thanks Frederic for pointing out the semantic difference!)</small>
 
 ### PUTs on DELETEd resources
 
