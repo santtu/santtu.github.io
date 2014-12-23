@@ -94,8 +94,8 @@ mythical beasts ... everybody!
 > My own children started getting into sauna about as soon as they
 could crawl (yes, getting into, not taken into). Typically small
 children stay in for shorter periods of time and/or sit on lower
-benches, but still, even babies often go to a sauna in Finland. But
-even my 4 year old kid is sitting on the topmost bench nowadays.
+benches, but still, even babies often go to a sauna in Finland. Even
+my 4 year old kid is sitting on the topmost bench nowadays.
 
 (If you haven't been into a sauna, and ever get a chance, keep that in
 your mind: 4 year old kid, 70+℃ sauna, topmost bench — don't you dare
@@ -109,7 +109,8 @@ First, a sauna in Finnish tradition is a place of cleanliness and
 purification. No sex in sauna, please (excluding the caveats, of
 course). Also there's hardly any stud that can do the required
 hydraulic moves while the environment is 70+℃ without risking a heart
-attack.
+attack. Also staring at any dangling things of other people is just as
+bad manners in sauna as anywhere else.
 
 Secondly, yes, there are mixed gender saunas. Families typically go to
 saunas together — yep, Finnish kids will see their parents and
@@ -124,17 +125,17 @@ that if you are a foreign female, it's okay to ask for a women-only
 shift as it is considered rude to force women to a mixed-gender
 sauna. But don't **assume** that separate sauna shifts are the default
 as most finns **just do not see sauna as a place of sexuality** and it
-is just as common to default to to having mixed gender saunas in a
-company of friends.
+is just as common to default having mixed gender saunas in a company
+of friends.
 
 > After a day's worth of skydiving I went with other from our club to
-> a sauna of a bowling club in Hanko. Being skydivers, naturally
-> trying to do stupid things we wanted to see how many people we could
-> fit into the sauna. 10. 20. 30. 40. I don't remember exactly, but
-> somewhere between 40 and 50 people the bench supports failed. This
-> was a sauna with normal capacity of 15 people, so space was
-> ... let's say, heavily optimized. And it was a mixed gender
-> sauna. Would this have been possible somewhere else?
+> a sauna of a bowling club. Being skydivers, naturally trying to do
+> stupid things we wanted to see how many people we could
+> <strike>fit</strike> cram into the sauna. 10. 20. 30. 40. I don't
+> remember exactly, but somewhere between 40 and 50 people the bench
+> supports failed. This was a sauna with normal capacity of 15 people,
+> so space was ... let's say, heavily optimized. And it was a mixed
+> gender sauna. Would this have been possible somewhere else?
 
 ## Where are saunas?
 
