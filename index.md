@@ -17,6 +17,11 @@ My basic bio:
 * [linkedin.com/in/paavolainen](http://fi.linkedin.com/in/paavolainen)
 * [santtu@iki.fi](email:santtu@iki.fi)
 
+I do independent consulting on cloud computing at both strategic
+business level ("why and how") and engineering level ("what and
+when"). If you are interested in the benefits I can provide for your
+organization, [please be in touch](email:santtu@iki.fi).
+
 ## Posts
 
 <ul class="posts">
