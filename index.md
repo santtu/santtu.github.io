@@ -2,6 +2,7 @@
 layout: page
 title: rnd()
 tagline: Blum Blum Shub
+description: "This is the personal blog of Santeri Paavolainen, mostly concerned about technology and cloud computing, but contains other random topics as well."
 ---
 {% include JB/setup %}
 
