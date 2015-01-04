@@ -4,7 +4,8 @@ permalink: /:categories/:year/:month/:day/:title
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 #auto: true
-pygments: true
+#pygments: true
+highlighter: pygments
 markdown: redcarpet
 safe: true
 
@@ -22,6 +23,20 @@ author :
   github : santtu
   twitter : paavolainen
   feedburner : random-title-working-thoughts
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "drafts"
+    values:
+      layout: "post"
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
