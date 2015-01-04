@@ -2,6 +2,7 @@
 layout: page
 title: fi.iki.santtu.md5
 tagline: Where old software goes to die
+permalink: /programs/md5/
 exclude_page: true
 ---
 {% include JB/setup %}

@@ -2,6 +2,7 @@
 layout: page
 title: programs
 tagline: Where old software goes to die
+permalink: /programs/
 exclude_page: true
 ---
 {% include JB/setup %}
