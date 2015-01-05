@@ -118,3 +118,9 @@ figure + p {
 /*     margin-left: 2%; */
 /*     margin-right: 2%; */
 /* } */
+
+.related {
+    margin: 1em 0;
+    padding: 0.5em;
+    background: #e5e5e5;
+}

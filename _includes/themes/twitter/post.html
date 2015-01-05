@@ -25,7 +25,17 @@
       {% assign tags_list = page.tags %}
       {% include JB/tags_list %}
     </ul>
-  {% endunless %}
+    {% endunless %}
+
+    {% assign related_posts = site.related_posts %}
+    {% if related_posts.size > 2 %}
+    {% assign first_seen = false %}
+    <div class="related">
+      Did you find this post interesting? Then you might want to check out
+    {% for post in site.related_posts limit: 4 %}{% if page.title != post.title %}{% if first_seen %}{% if forloop.last %} and {% else %}, {% endif %}{% endif %}<a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a>{% assign first_seen = true %}{% endif %}{% endfor %}.
+    </div>
+    {% endif %}
+
 
     <hr>
     <div class="pagination">

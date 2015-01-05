@@ -14,7 +14,7 @@ tags: ["emberjs"]
   language](http://emberjs.com/guides/templates/handlebars-basics/).)
 
 <figure>
-<img style="width: 45%;" alt="Finnish road sign #122" src="http://upload.wikimedia.org/wikipedia/commons/c/cb/Kaksisuuntainen_liikenne_122.svg">
+<img style="width: 45%;" alt="Finnish road sign #122" src="http://upload.wikimedia.org/wikipedia/commons/a/a4/Finland_road_sign_122.svg">
 <figcaption>Finnish road sign number 122, "Two-way traffic". (Source: <a href="http://commons.wikimedia.org/wiki/File:Kaksisuuntainen_liikenne_122.svg">Wikimedia Commons</a>)</figcaption>
 </figure>
 

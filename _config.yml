@@ -18,6 +18,7 @@ tagline: rnd()
 production_url: http://santtu.iki.fi
 atom_path : atom.xml
 rss_path : rss.xml
+lsi: true
 author :
   name : Santeri Paavolainen
   email : santtu@iki.fi
