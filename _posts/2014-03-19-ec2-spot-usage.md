@@ -410,6 +410,12 @@ simple:
   (checkpointing) so that if it is terminated, another instance can
   continue from the last saved checkpoint.
 
+(**Edit 2015-01-06**:
+[AWS announced](https://aws.amazon.com/blogs/aws/new-ec2-spot-instance-termination-notices/)
+a two-minute termination notice available via instance metadata. You
+still can't prevent termination, but you do not get a short notice
+before it occurs.)
+
 Extension of this is to store the state continuously, but there are
 tons of tradeoff and what's a good choice depends on your goals and
 your applications. Computation tasks that split naturally into

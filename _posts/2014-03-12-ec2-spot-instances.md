@@ -33,6 +33,12 @@ a complete control on the lifecycle of spot instances**.
 
 > **Spot instances can be terminated by AWS at any time.**
 
+(**Edit 2015-01-06**:
+[AWS announced](https://aws.amazon.com/blogs/aws/new-ec2-spot-instance-termination-notices/)
+a two-minute termination notice available via instance metadata. You
+still can't prevent termination, but you do not get a short notice
+before it occurs.)
+
 With on-demand instances (the regular variety) and reserved instances
 you get to choose the lifetime of the instance. With spot instances it
 is you **and AWS** who get to terminate the instance. AWS of course
