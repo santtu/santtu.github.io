@@ -246,7 +246,7 @@ connection_loop(C) ->
     end.
 ```
 
-### Concurrency …
+### <a name="concurrency"></a>Concurrency …
 
 This should be a reminder that **concurrency is hard**. (If you don't
 believe me, check what [Simon Peyton
