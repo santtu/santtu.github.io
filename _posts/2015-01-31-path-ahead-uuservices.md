@@ -121,7 +121,7 @@ Each µ²service is a **pure function** with no state running in a
 request** to the µ²service.
 
 Every invocation of a µ²service results in creation of **a separate
-virtual machine**<a name="1back">[<sup>1</sup>](#1)</a>, created from
+virtual machine**[^1], created from
 scratch and torn down immediately after. This means the path of control
 flow differs between a "conventional" service and an µ²service — see
 the figure below.
@@ -232,6 +232,4 @@ dominant, but did not.
 
 ----
 
-<a name="1">[<sup>1</sup>](#1back)</a> Replace "virtual machine" with
-"container" if you will. I'd guess something else entirely, but what?
-Something in between those two?
+[^1]: Replace "virtual machine" with "container" if you will. I'd guess something else entirely, but what?  Something in between those two?
