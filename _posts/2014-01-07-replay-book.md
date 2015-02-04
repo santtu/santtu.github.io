@@ -5,7 +5,9 @@ tagline: "The history of video games"
 tags: ["book", "history", "games"]
 ---
 
-<div style="margin: 0 10px; width: 30%; float: right;"><a href="http://www.librarything.com/work/10131364"><img src="{{site.url}}/assets/posts/replay-book-cover.jpg"></a></div>
+<div style="margin: 0 10px; width: 30%; float: right;">
+<a href="http://www.librarything.com/work/10131364"><img src="{{site.url}}/assets/posts/replay-book-cover.jpg"></a>
+</div>
 
 Lately I've been reading a book called [**Replay - The history of
 video games**](http://www.librarything.com/work/10131364) by

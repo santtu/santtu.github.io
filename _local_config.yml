@@ -1,3 +1,5 @@
 JB:
   comments:
     provider: false
+  analytics:
+    provider: false

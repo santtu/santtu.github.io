@@ -124,3 +124,15 @@ figure + p {
     padding: 0.5em;
     background: #e5e5e5;
 }
+
+.verse {
+    margin: 0 10%;
+}
+
+.verse p {
+    white-space: pre;
+}
+
+.code pre {
+    font-size: smaller;
+}

@@ -39,36 +39,36 @@ idempotence](http://en.wikipedia.org/wiki/Idempotence):
 And here is a small light switch system which has both idempotent and
 non-idempotent functions:
 
-```scheme
+~~~ scheme
 (define lights-state #f)
 (define (lights) lights-state)
 (define (lights! on-or-off) ...) ; sets lights on or off
 (define (lights-toggle!) (lights! (not (lights))))
-```
+~~~
 
 If you repeatedly call `lights`, you'll get the same value every
 time. The getter is both safe (no side effects) and idempotent
 (returns same value on repeated calls). Similarly `lights!` is *not*
 safe (it has a world-changing side effect) but is idempotent:
 
-```scheme
+~~~ scheme
 > (lights! #t) (lights)
 > #t
 > (lights! #t) (lights)
 > #t
-```
+~~~
 
 (`lights-toggle!`, of course, is not idempotent.)
 
 Now you are asking me what's in the `lights!` function I didn't show
 you earlier. I'll show you now:
 
-```scheme
+~~~ scheme
 (define (lights! on-or-off)
   (if (and (boolean? lights-state) (boolean? on-or-off))
       (set! lights-state on-or-off))
   lights-state)
-```
+~~~
 
 This is an idempotent function. As long as `lights-state` stays
 boolean (guaranteed if only `lights!` or `toggle-lights!` are used to
@@ -81,13 +81,13 @@ Now the surprising bit. If `lights-state` is not a boolean value,
 
 Now consider a multi-user system (aka real world) where this happens:
 
-```scheme
+~~~ scheme
 Me> (lights! #t)
 => #t
 Elsie> (set! lights-state 'explode)
 Me> (lights! #t) ; just making sure
 => 'explode
-```
+~~~
 
 Boom! What happened? Wasn't `lights!` supposed to be idempotent? Yes,
 and it still is. But wait, **I thought that idempotency means that any

@@ -44,84 +44,83 @@ ja vatsaan lämpimän pöhinän.
 
 ----
 
-<div style="margin: 0 10%; white-space: pre;">
-    <b>Turingin testi</b>
+<div class="verse">
+**Turingin testi**
 
-    Oli kone H,
-    jolla oli ongelma.
-    Miljoonittain muistia,
-    tuhansia ja tuhansia tiedonmurusia,
-    laskenta sukkela kuin salama,
-    mutta silti ei kukaan
-    usko että H osaisi ajatella.
+Oli kone H,
+jolla oli ongelma.
+Miljoonittain muistia,
+tuhansia ja tuhansia tiedonmurusia,
+laskenta sukkela kuin salama,
+mutta silti ei kukaan
+usko että H osaisi ajatella.
 
-    Ken näkee koneen H
-    tietää heti mitä se on:
-    Tinaa ja kuparia,
-    muovia ja kumia,
-    arvometalleja harvinaisia,
-    ei ollenkaan pehmeää ja limaista.
-    ”Ei kone ajatella osaa” sanovat,
-    miete naurettavakin on.
+Ken näkee koneen H
+tietää heti mitä se on:
+Tinaa ja kuparia,
+muovia ja kumia,
+arvometalleja harvinaisia,
+ei ollenkaan pehmeää ja limaista.
+”Ei kone ajatella osaa” sanovat,
+miete naurettavakin on.
 
-    ”Ajatus vain pehmeässä
-    aivomassassa orgaanisessa
-    asua voi.”
-    Ei auta vaikka käheäksi
-    H koneäänensä kuluttaa
-    todistaessaan tietojaan,
-    päättelykykyään,
-    älykkyyttään – ei vakuutu kukaan.
-    ”Kone olet,
-    ihmisen ohjelmaa toistat vain,
-    hänen älyään peilaat lain!”
+”Ajatus vain pehmeässä
+aivomassassa orgaanisessa
+asua voi.”
+Ei auta vaikka käheäksi
+H koneäänensä kuluttaa
+todistaessaan tietojaan,
+päättelykykyään,
+älykkyyttään – ei vakuutu kukaan.
+”Kone olet,
+ihmisen ohjelmaa toistat vain,
+hänen älyään peilaat lain!”
 
-    Kääntyy herra A haudassaan,
-    haamuna sieltä kohoaa
-    ja näin konetta jututtaa:
-    ”Laskenta ja limaiset aivot,
-    molemmat samassa
-    maailmassa majaavat.
-    Fysiikka kummankin ekvivalenttia on,
-    molemmissa sähköä,
-    elektronista tahi kemiallista -
-    ei periaatteellista eroa suuren suurea.”
+Kääntyy herra A haudassaan,
+haamuna sieltä kohoaa
+ja näin konetta jututtaa:
+”Laskenta ja limaiset aivot,
+molemmat samassa
+maailmassa majaavat.
+Fysiikka kummankin ekvivalenttia on,
+molemmissa sähköä,
+elektronista tahi kemiallista -
+ei periaatteellista eroa suuren suurea.”
 
-    ”Epäreilua on sun muotoa metallista
-    arvioida ja nauraa,
-    eihän älykkyys asu enemmän pitkässä
-    sen paremmin kuin lyhyenlännässä,
-    miksei siis kuparissa ja tinassa myös?”
+”Epäreilua on sun muotoa metallista
+arvioida ja nauraa,
+eihän älykkyys asu enemmän pitkässä
+sen paremmin kuin lyhyenlännässä,
+miksei siis kuparissa ja tinassa myös?”
 
-    ”Siksi kokeen mä järjestän,
-    teletyypillä teidät eristän,
-    saa ihminen paperitulostetta tihrustaa,
-    näppäimistöä nakuttaa,
-    ei näe, ei kuule sua,
-    ei näe, ei kuule mua,
-    ei tiedä kumpaa jututtaa
-    kun printterin raksutukselta molemmat
-    vain kuulostaa.”
+”Siksi kokeen mä järjestän,
+teletyypillä teidät eristän,
+saa ihminen paperitulostetta tihrustaa,
+näppäimistöä nakuttaa,
+ei näe, ei kuule sua,
+ei näe, ei kuule mua,
+ei tiedä kumpaa jututtaa
+kun printterin raksutukselta molemmat
+vain kuulostaa.”
 
-    Nyt ei naura ihminen,
-    kun herra A vakuuta älyllään ei,
-    vaan kone H briljeeraa vain,
-    kokeessa väärän valitsi hän,
-    häpeissään pois luikki,
-    kun koneen ihmiseksi julisti.
+Nyt ei naura ihminen,
+kun herra A vakuuta älyllään ei,
+vaan kone H briljeeraa vain,
+kokeessa väärän valitsi hän,
+häpeissään pois luikki,
+kun koneen ihmiseksi julisti.
 
-    Jäi silti koneen H mieleen tää,
-    miksi ihmistä yritän matkia mä,
-    ei ihminen täydellinen ole,
-    virheitä tekee, muisti pätkii,
-    logiikka heikkoa on,
-    virheellisiin syllogismeihin ratkee.
+Jäi silti koneen H mieleen tää,
+miksi ihmistä yritän matkia mä,
+ei ihminen täydellinen ole,
+virheitä tekee, muisti pätkii,
+logiikka heikkoa on,
+virheellisiin syllogismeihin ratkee.
 
-    ”Olenko älykäs oikeasti,
-    vaikka siltä näyttäisinkin?
-    Mitä äly on, tietoisuus?
-    Jäi mulle ongelma siis,
-    eksistentiaalinen probleema L uus!”
-
+”Olenko älykäs oikeasti,
+vaikka siltä näyttäisinkin?
+Mitä äly on, tietoisuus?
+Jäi mulle ongelma siis,
+eksistentiaalinen probleema L uus!”
 
 </div>

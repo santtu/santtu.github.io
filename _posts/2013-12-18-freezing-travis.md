@@ -25,7 +25,7 @@ just somehow abnormally suspectible to finding corner cases?
 
 Anyway, here's the `.travis.yml` file:
 
-```yaml
+~~~ yaml
 language: python
 python:
   - "2.7"
@@ -39,7 +39,7 @@ services:
   - rabbitmq
 script:
   - make actual-test
-```
+~~~
 
 The gotcha is getting node's local install bin directory into `PATH`
 environmental variable. Travis by default **does have**

@@ -138,9 +138,9 @@ src="/assets/posts/flying-pig-larry-wenztel.jpg" alt="flying pig"></a>
 
 <figcaption>Surely, someday, after a lot of generic modification and
 3D-printing of retro pilot glasses even pigs can fly! In style! (Image
-credit: <a
-href="https://www.flickr.com/photos/wentzelepsy/4435803492/">Larry
-Wentzel</a>, used under Creative Commons license).</figcaption>
+credit: [Larry
+Wentzel](https://www.flickr.com/photos/wentzelepsy/4435803492/), used under Creative Commons license).
+</figcaption>
 </figure>
 
 **Miscellaneous.** AWS is a business. It'll keep "previous generation

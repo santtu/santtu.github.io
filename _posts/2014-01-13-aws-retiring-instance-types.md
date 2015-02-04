@@ -28,7 +28,12 @@ workloads.
 
 <figure>
 <img src="{{site.url}}/assets/posts/Takiyasha_the_Witch_and_the_Skeleton_Spectre.jpg" alt="Takiyasha the Witch and the Skeleton Spectre by Utagawa Kuniyoshi">
-<figcaption><em>Death of Instances</em> by … errr, actually it's <em>Takiyasha the Witch and the Skeleton Spectre</em> by Utagawa Kuniyoshi (Image source: <a href="http://commons.wikimedia.org/wiki/File:Takiyasha_the_Witch_and_the_Skeleton_Spectre.jpg">Wikimedia commons</a>)</figcaption>
+<figcaption><em>Death of Instances</em> by … errr, actually it's
+<em>Takiyasha the Witch and the Skeleton Spectre</em> by Utagawa
+Kuniyoshi (Image source: <a
+href="http://commons.wikimedia.org/wiki/File:Takiyasha_the_Witch_and_the_Skeleton_Spectre.jpg">Wikimedia
+commons</a>)
+</figcaption>
 </figure>
 
 ## Hardware generations

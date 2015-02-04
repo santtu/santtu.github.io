@@ -55,7 +55,7 @@ interactions in the same `receive` loop.
 Here's an example Erlang program to connect to port 12345 on
 localhost, reading data from the socket and printing it out:
 
-```erlang
+~~~ erlang
 main(_) ->
     {ok,_} = gen_tcp:connect("localhost", 12345,
 			     [{active, true}, {packet, line}]),
@@ -70,7 +70,7 @@ loop() ->
 	    io:format("Error or socket closed, exiting.~n"),
 	    halt(0)
     end.
-```
+~~~
 
 To try this out, put this into a file and, run `echo hello | nc -l
 12345` in another terminal and use `escript` to run the script. Of
@@ -87,7 +87,7 @@ until the socket is closed (or an error occurs).
 A socket server with active sockets is also straightforward (**except
 don't use this code, see below**):
 
-```erlang
+~~~ erlang
 %% WARNING: Don't use this code, it contains a race condition. See below.
 main(_) ->
     {ok,S} = gen_tcp:listen(12345, [{active, false}, {packet, line}]),
@@ -110,7 +110,7 @@ connection_loop(C) ->
 	    io:format("~w Error or socket closed, closing.~n", [self()]),
 	    gen_tcp:close(C)
     end.
-```
+~~~
 
 This program will bind to port 12345, accept connections on the port,
 spawn an Erlang process for each connection which in turn will echo
@@ -203,7 +203,7 @@ synchronization barrier to ensure that `connection_loop` won't be
 called until the parent process has relinquished its control on the
 socket:
 
-```erlang
+~~~ erlang
 %% Version spawning off a process to handle the connection.
 server_loop(S) ->
     {ok,C} = gen_tcp:accept(S),
@@ -211,7 +211,7 @@ server_loop(S) ->
     gen_tcp:controlling_process(C, Pid),
     Pid ! start,
     server_loop(S).
-```
+~~~
 
 Since this race condition occurs only when **not** using `recv` and
 **switching controlling process** there are also two other ways to
@@ -219,18 +219,18 @@ write the code so the race condition never occurs. First one is to
 eliminate the need to use `controlling_process` by spawning a new
 process for the listener instead:
 
-```erlang
+~~~ erlang
 %% Version using the current process to handle the connection, passing socket
 %% listening to a spawned process instead.
 server_loop(S) ->
     {ok,C} = gen_tcp:accept(S),
     spawn(fun () -> server_loop(S) end),
     connection_loop(C).
-```
+~~~
 
 and the other is to **not** use active sockets at all:
 
-```erlang
+~~~ erlang
 %% Version eliminating active sockets completely using gen_tcp:recv only.
 server_loop(S) ->
     {ok,C} = gen_tcp:accept(S),
@@ -244,7 +244,7 @@ connection_loop(C) ->
 	_ ->
             ...
     end.
-```
+~~~
 
 ### <a name="concurrency"></a>Concurrency …
 

@@ -40,7 +40,20 @@ I whip up a [Python](http://www.python.org/) script using
 files, broken down by magazine names. Here it is, a total 9 lines of
 code:
 
-<script src="https://gist.github.com/santtu/59d7485a9081554e4d81.js"></script>
+~~~ python
+#!/usr/bin/env python3
+import genshi.template, yaml
+
+data = yaml.load(open("data.yaml"))
+tmpl = genshi.template.NewTextTemplate(open("template.txt"))
+i = 1
+
+for mags in data:
+    names = list(map(lambda e: e['name'], mags))
+    result = str(tmpl.generate(magazines=mags, names=names))
+    print(result, file=open('out/' + (", ".join(names)) + '.txt', 'w'))
+    i += 1
+~~~
 
 Time spent:
 

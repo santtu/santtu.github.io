@@ -7,7 +7,6 @@ description: "This is the personal blog of Santeri Paavolainen, mostly concerned
 ---
 {% include JB/setup %}
 
-
 This is an experimental blog by
 [Santeri Paavolainen](https://github.com/santtu). You can find a bit
 more information on what I mean by "experimental" in [here]({% post_url 2013-04-12-can-you-blog-in-github %}) and [here]({% post_url 2013-07-08-jekyll-and-hyde %}).

@@ -13,12 +13,12 @@ intelligences.
 What I'm talking about is the small stuff. Everyday stuff. Like the
 Internet and paying for a late-night space-age kebab meal.
 
-<figure> <a
-href="/assets/posts/PIA17944-MarsCuriosityRover-AfterCrossingDingoGapSanddune-20140209.jpg"><img
-src="/assets/posts/PIA17944-MarsCuriosityRover-AfterCrossingDingoGapSanddune-20140209.jpg"
-alt="Mars surface view"></a>
+<figure>
+[![Mars surface view](/assets/posts/PIA17944-MarsCuriosityRover-AfterCrossingDingoGapSanddune-20140209.jpg)](/assets/posts/PIA17944-MarsCuriosityRover-AfterCrossingDingoGapSanddune-20140209.jpg)
 
-<figcaption>That'll be your tracks from the pub crawl. (Source: <a href="http://commons.wikimedia.org/wiki/File:PIA17944-MarsCuriosityRover-AfterCrossingDingoGapSanddune-20140209.jpg">Wikimedia Commons</a>)</figcaption>
+<figcaption>That'll be your tracks from the pub crawl. (Source:
+[Wikimedia Commons](http://commons.wikimedia.org/wiki/File:PIA17944-MarsCuriosityRover-AfterCrossingDingoGapSanddune-20140209.jpg))
+</figcaption>
 
 </figure>
 

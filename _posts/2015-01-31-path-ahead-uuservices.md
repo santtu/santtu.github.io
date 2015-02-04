@@ -52,11 +52,11 @@ src="/assets/posts/mainframe-to-cloud.png" alt="Service deployment and
 cost development"></a>
 
 <figcaption>Service deployment speed has increased while the cost to
-run a service has simultanously decreased. (Images courtesy of <a
-href="http://commons.wikimedia.org/wiki/Main_Page">Wikimedia
-Commons</a> and <a
-href="https://www.flickr.com/photos/osde-info/7948643886/in/photostream/">Clive
-Darra</a>.)</figcaption>
+run a service has simultanously decreased. (Images courtesy of [Wikimedia
+Commons](http://commons.wikimedia.org/wiki/Main_Page) and
+[Clive
+Darra](https://www.flickr.com/photos/osde-info/7948643886/in/photostream/).)
+</figcaption>
 
 </figure>
 
@@ -89,7 +89,9 @@ a [quote](http://erlangonxen.org/test/latency) of what it can do:
 
 Now …
 
-<div style="margin: 3em 0; text-align: center; font-size: 200%; color: #ddd;">&lt;your thoughts here&gt;</div>
+<div style="margin: 3em 0; text-align: center; font-size: 200%; color:#ddd;">
+&lt;your thoughts here&gt;
+</div>
 
 … your eyes skimming to this line took more than those 50
 milliseconds. That is **human-scale fast**. Fast enough a human
@@ -129,9 +131,10 @@ src="/assets/posts/uuservices-comparison.svg" alt="Conventional
 vs. µ²services"></a>
 
 <figcaption>Comparison of more conventional service implementation
-(left) and µ²services (right) responding to a <tt>GET /</tt> request
+(left) and µ²services (right) responding to a `GET /` request
 on a REST-styled service with multiple operation
-endpoints.</figcaption> </figure>
+endpoints.
+</figcaption> </figure>
 
 On the left the request is first terminated by a load balancer or a
 reverse proxy on another machine. The application server receives the
@@ -172,7 +175,8 @@ co-evolving"></a>
 
 <figcaption>Multiple trends are co-evolving together with feedback
 cycles. Some concerns such as security are affecting these trends, but
-they are not as such affected themselves.</figcaption> </figure>
+they are not as such affected themselves.
+</figcaption> </figure>
 
 Throw security in too, as it favors separation of concerns and
 role-based access control, which are easier to implement in a loosely

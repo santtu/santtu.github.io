@@ -22,14 +22,16 @@ itself, but also as multiple RSS feeds (there's also
 internal API, subject to changes and doesn't have as good incident
 history record as RSS versions).
 
-<figure> <a
+<figure>
+<a
 href="/assets/posts/aws-service-dashboard-screenshot.png"><img
 src="/assets/posts/aws-service-dashboard-screenshot.png" alt="capture
 of AWS service dashboard"></a>
 
 <figcaption>This is what the AWS service health dashboard's history
 section looks like. Most of the time it's very boring reading, all
-green checkmarks.</figcaption>
+green checkmarks.
+</figcaption>
 
 </figure>
 

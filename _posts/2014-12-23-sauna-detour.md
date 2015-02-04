@@ -130,8 +130,7 @@ of friends.
 
 > After a day's worth of skydiving I went with other from our club to
 > a sauna of a bowling club. Being skydivers, naturally trying to do
-> stupid things we wanted to see how many people we could
-> <strike>fit</strike> cram into the sauna. 10. 20. 30. 40. I don't
+> stupid things we wanted to see how many people we could <del>fit</del> cram into the sauna. 10. 20. 30. 40. I don't
 > remember exactly, but somewhere between 40 and 50 people the bench
 > supports failed. This was a sauna with normal capacity of 15 people,
 > so space was ... let's say, heavily optimized. And it was a mixed

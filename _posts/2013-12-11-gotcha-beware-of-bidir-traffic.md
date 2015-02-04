@@ -15,7 +15,11 @@ tags: ["emberjs"]
 
 <figure>
 <img style="width: 45%;" alt="Finnish road sign #122" src="http://upload.wikimedia.org/wikipedia/commons/a/a4/Finland_road_sign_122.svg">
-<figcaption>Finnish road sign number 122, "Two-way traffic". (Source: <a href="http://commons.wikimedia.org/wiki/File:Kaksisuuntainen_liikenne_122.svg">Wikimedia Commons</a>)</figcaption>
+<figcaption>Finnish road sign number 122, "Two-way traffic". (Source:
+<a
+href="http://commons.wikimedia.org/wiki/File:Kaksisuuntainen_liikenne_122.svg">Wikimedia
+Commons</a>)
+</figcaption>
 </figure>
 
 While [doing a retry on Ember]({% post_url 2013-12-11-retry-on-ember %}) for freezr user interface, I hit a
@@ -30,7 +34,7 @@ to implement a "since state change" time display. Converting the
 original code to coffeescript was straightforward (but see
 [below](#update) for an update):
 
-```coffee
+~~~ coffee
 App.FromNowView = Ember.View.extend
   nextTick: null
   tagName: 'time'
@@ -43,13 +47,13 @@ App.FromNowView = Ember.View.extend
   willDestroyElement: () ->
     Ember.run.cancel @nextTick
   didInsertElement: () -> @tick()
-```
+~~~
 
 and it was used like this:
 
-```html
+~~~ html
 {% raw %}{{view "App.FromNowView" valueBinding="stateUpdated"}}{% endraw %}
-```
+~~~
 
 Which worked great when the page was first loaded but **it failed to
 update the time view after updates**. I was really really
@@ -90,7 +94,9 @@ is mysteriously fixed.
 
 Finally I added logging to `DS.attr`'s use of `Ember.computed` and …
 
-<div style="font-size: 300%; margin: 1em 0;">… all was made clear to me.</div>
+<div style="font-size: 300%; margin: 1em 0;">
+… all was made clear to me.
+</div>
 
  All of the *other fields* were getting the value
 from `@_data` element (which contained the updated values set by
@@ -111,9 +117,9 @@ already overwritten it myself**.
 
 This is the offending line:
 
-```coffee
-      @notifyPropertyChange('value')
-```
+~~~ coffee
+@notifyPropertyChange('value')
+~~~
 
 This doesn't actually change the value of `value`, but Ember doesn't
 know that so it propagates the event to the bound field of
@@ -180,12 +186,12 @@ all changes in the original model are **also** honored. The change is
 trivially simple with changing the property change event fired on the
 *output* element:
 
-```coffee
-  tick: () ->
-    @nextTick = Ember.run.later this, (() ->
-      @notifyPropertyChange('output')
-      @tick()), 1000
-```
+~~~ coffee
+tick: () ->
+  @nextTick = Ember.run.later this, (() ->
+    @notifyPropertyChange('output')
+    @tick()), 1000
+~~~
 
 With this simple change everything was finally made good!
 

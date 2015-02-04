@@ -166,7 +166,9 @@ alt="c3.2xlarge in us-east-2"></a>
 <code>c3.2xlarge</code> spot market prices in
 <code>us-east-1</code>. Solid line is the weighted daily average
 price, lineless blocks are the maximum daily bid price and colors
-represent different zones.  </figcaption>
+represent different zones.
+
+</figcaption>
 
 </figure>
 

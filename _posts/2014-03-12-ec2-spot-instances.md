@@ -145,7 +145,9 @@ pricing. Solid lines are daily averages and the translucent blocks
 show the daily maximum price. Different colors represent different
 availability zones. Faint gray horizontal lines correspond to 4x, 1x
 and 1/4x price compared to on-demand instance pricing. Click images
-for larger versions.</figcaption>
+for larger versions.
+
+</figcaption>
 
 </figure>
 
@@ -185,8 +187,6 @@ To recap:
 * Price volatility can vary massively between instance types in the
   same region, and between availability zones for the same instance
   type in the same region.
-
-</figure>
 
 ### <a name="si-spot-availability"></a>Instance availability is determined by bid prices
 

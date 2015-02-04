@@ -36,9 +36,10 @@ spot prices by instance type in all regions"></a>
 
 <figcaption>Minimum spot market prices by instance type and
 region. The minimum is calculated over all the zones in the
-region. Note that <code>cc1.4xlarge</code> is missing due to a
+region. Note that `cc1.4xlarge` is missing due to a
 limitation in the source data, not that it doesn't have
-bids.</figcaption>
+bids.
+</figcaption>
 </figure>
 
 Take a look at the graph for a few seconds. Go ahead. Don't skip ahead
@@ -59,13 +60,12 @@ src="/assets/posts/minimum-spot-price-suspects.svg" alt="minimum
 spot prices of selected instances overlaid by region"></a>
 
 <figcaption>Minimum spot price for instance types
-
-<code>m3.xlarge</code>, <code>m3.2xlarge</code>,
-<code>t1.micro</code>, <code>m1.large</code>, <code>m1.xlarge</code>,
-<code>m2.xlarge</code>, <code>m2.2xlarge</code>,
-<code>m2.4xlarge</code>, <code>m1.small</code>,
-<code>m1.medium</code>, <code>c1.medium</code> and
-<code>c1.xlarge</code>. Different colors correspond to different
+`m3.xlarge`, `m3.2xlarge`,
+`t1.micro`, `m1.large`, `m1.xlarge`,
+`m2.xlarge`, `m2.2xlarge`,
+`m2.4xlarge`, `m1.small`,
+`m1.medium`, `c1.medium` and
+`c1.xlarge`. Different colors correspond to different
 instance types. Y-axis positions are slightly jittered.
 
 </figcaption>
@@ -111,10 +111,10 @@ three regions in a tabular format:
   <TR> <TD align="right"> t1.micro </TD> <TD align="right"> 0.004 </TD> <TD align="right"> 0.004 </TD> <TD align="right"> 0.004 </TD> </TR>
   </table>
 
-	<figcaption>Lowest observed spot instance prices in dollars in the
-	regions <code>us-west-2</code>, <code>ap-southeast-1</code> and
-	<code>ap-southeast-2</code> between 2013-12-08 and 2014-03-09.
-	</figcaption>
+<figcaption>Lowest observed spot instance prices in dollars in the
+regions `us-west-2`, `ap-southeast-1` and
+`ap-southeast-2` between 2013-12-08 and 2014-03-09.
+</figcaption>
 
 </figure>
 
@@ -166,13 +166,14 @@ more striking:
 src="/assets/posts/minimum-spot-price-2ndgen.svg" alt="minimum
 spot prices for c3 instance types"></a>
 
-<figcaption>Minimum spot price for <code>c3</code> class instance
+<figcaption>Minimum spot price for `c3` class instance
 types. Different colors correspond to different instance types. Y-axis
 positions are slightly jittered. (The reason why you are not seeing
 many discs is because most of them are exactly on top of each other.)
-<code>sa-east-1</code> is missing from this graph as it didn't have
-<code>c3</code> instance types during the period covered by the data
-set.</figcaption>
+`sa-east-1` is missing from this graph as it didn't have
+`c3` instance types during the period covered by the data
+set.
+</figcaption>
 
 </figure>
 

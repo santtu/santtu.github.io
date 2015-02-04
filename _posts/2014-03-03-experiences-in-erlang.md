@@ -15,7 +15,7 @@ supercomputers such as the [CM-5](http://en.wikipedia.org/wiki/Connection_Machin
 Unfortunately a binary N-cube routing algorithm is **pretty much
 trivial**. Here's the whole routing algorithm written in Erlang:
 
-```erlang
+~~~ erlang
 find_route(_,_,[],_) ->
     {error,noroute};
 
@@ -25,7 +25,7 @@ find_route(Id,Dst,[Route|Routes]) ->
        true ->
             find_route(Id bsr 1, Dst bsr 1, Routes)
     end.
-```
+~~~
 
 That's it. 8 lines of code. The first function could be omitted
 (deducting two lines) as it guaranteed to be never called. (`Id` is
