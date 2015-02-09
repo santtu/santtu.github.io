@@ -2,6 +2,7 @@
 layout: post
 title: "Minimum spot instance prices"
 tagline: "Drawing numbers out of thin air"
+excerpt: false
 tags: ["aws", "ec2", "spot instances"]
 ---
 

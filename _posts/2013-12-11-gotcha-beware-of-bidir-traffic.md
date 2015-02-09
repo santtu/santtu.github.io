@@ -3,6 +3,7 @@ layout: post
 title: "Gotcha!"
 tagline: "Beware of bidirectional traffic"
 tags: ["emberjs"]
+excerpt: false
 ---
 
 > (Note: The code examples below use

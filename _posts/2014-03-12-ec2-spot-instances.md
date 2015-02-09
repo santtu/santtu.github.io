@@ -3,6 +3,7 @@ layout: post
 title: "Spot instances and price behavior"
 tagline: "What, when and at what price?"
 tags: ["aws", "ec2", "spot instances"]
+excerpt: false
 date: 2014-03-12 16:00:00 +02:00
 ---
 

@@ -3,6 +3,7 @@ layout: post
 title: "m1 marching into obsolescence?"
 tagline: "Retiring instance types - revisited"
 tags: ["aws", "ec2"]
+excerpt: false
 ---
 
 > I'm revisiting the topic of my earlier post [retiring instance

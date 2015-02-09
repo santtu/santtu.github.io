@@ -2,6 +2,7 @@
 layout: post
 title: "Replay"
 tagline: "The history of video games"
+excerpt: false
 tags: ["book", "history", "games"]
 ---
 

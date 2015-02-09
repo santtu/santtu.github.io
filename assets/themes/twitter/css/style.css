@@ -136,3 +136,46 @@ figure + p {
 .code pre {
     font-size: smaller;
 }
+
+#recent .tagline:before {
+    content: "— ";
+}
+
+#recent ul {
+    list-style-type: none;
+}
+
+#recent li {
+    padding: 0 0 1.5em 0;
+}
+
+#recent li:before {
+    content: "✱ ";
+    color: #f84040;
+}
+
+#recent a {
+    font-weight: bold;
+}
+
+#recent .date {
+    color: #888;
+    font-size: 80%;
+}
+
+#recent .excerpt {
+    color: #666;
+    font-size: 90%;
+    margin-top: 0.5em;
+}
+
+#recent a.excerpt {
+    color: inherit;
+    font-weight: normal;
+}
+
+#recent a.excerpt:hover {
+    color: inherit;
+    font-weight: normal;
+    text-decoration: none !important;
+}

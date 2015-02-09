@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Using spot instances"
-tagline: ""
+tagline: false
+excerpt: false
 tags: ["aws", "ec2", "spot instances"]
 ---
 

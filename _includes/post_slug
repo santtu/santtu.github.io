@@ -1,0 +1,15 @@
+{% capture post_url %}{{ BASE_PATH }}{{ post.url }}{% endcapture %}
+<li>
+<span class="date">{{ post.date | date: "%B %e, %Y" }}</span><br>
+<a href="{{ post_url }}">{{post.title}}</a>
+{% if post.tagline %}
+<span class="tagline">{{ post.tagline }}</span>
+{% endif %}
+</a>
+{% if post.excerpt %}
+<div>
+<a class="excerpt" href="{{post_url}}">{{ post.excerpt | strip_html | truncatewords: 50 }}</a>
+<a href="{{ post_url }}">»»</a>
+</div>
+{% endif %}
+</li>
