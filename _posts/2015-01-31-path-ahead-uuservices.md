@@ -2,7 +2,7 @@
 layout: post
 title: "µ²services"
 tagline: "Docker and evolution"
-tags: []
+tags: ["µ²services"]
 ---
 
 Previously I started [playing the futurician]({% post_url 2015-01-06-trans-earth-protocols %}), a path I'm now continuing against all good advice. I've always envied "visionaries" at companies as they get to play around without any kind of responsibility (they will have long since flocked elsewhere when their predictions can be checked). Similarly I am planning to make bold predictions of a future so far away that a claim of flying pigs would have equal credibility.
