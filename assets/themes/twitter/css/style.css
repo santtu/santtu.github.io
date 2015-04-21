@@ -179,3 +179,8 @@ figure + p {
     font-weight: normal;
     text-decoration: none !important;
 }
+
+.twitter-tweet {
+    margin-top: 2em !important;
+    margin-bottom: 2em !important;
+}
