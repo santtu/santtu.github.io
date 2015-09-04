@@ -120,9 +120,10 @@ figure + p {
 /* } */
 
 .related {
-    margin: 1em 0;
-    padding: 0.5em;
-    background: #e5e5e5;
+    margin: 3em 2em;
+    padding: 1.5em;
+    border-radius: 0.8em;
+    background: #a6daf3;
 }
 
 .verse {
@@ -149,10 +150,10 @@ figure + p {
     padding: 0 0 1.5em 0;
 }
 
-#recent li:before {
-    content: "✱ ";
-    color: #f84040;
-}
+/* #recent .title:before { */
+/*     content: "✱ "; */
+/*     color: #f84040; */
+/* } */
 
 #recent a {
     font-weight: bold;
@@ -169,12 +170,13 @@ figure + p {
     margin-top: 0.5em;
 }
 
-#recent a.excerpt {
+#recent .excerpt a.text {
     color: inherit;
     font-weight: normal;
+    margin-top: 1em;
 }
 
-#recent a.excerpt:hover {
+#recent .excerpt a.text:hover {
     color: inherit;
     font-weight: normal;
     text-decoration: none !important;
@@ -183,4 +185,17 @@ figure + p {
 .twitter-tweet {
     margin-top: 2em !important;
     margin-bottom: 2em !important;
+}
+
+.slug .title {
+    font-size: 120%;
+}
+
+
+#mail-signup {
+    font-size: smaller;
+}
+
+#mail-signup .email {
+    width: 40%;
 }

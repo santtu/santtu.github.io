@@ -25,17 +25,32 @@
       {% assign tags_list = page.tags %}
       {% include JB/tags_list %}
     </ul>
-    {% endunless %}
+  {% endunless %}
 
-    {% assign related_posts = site.related_posts %}
-    {% if related_posts.size > 2 %}
-    {% assign first_seen = false %}
+    <hr>
+
+  {% assign related_posts = site.related_posts %}
+  {% if related_posts.size > 2 %}
+  {% assign first_seen = false %}
     <div class="related">
-      Did you find this post interesting? Then you might want to check out
-    {% for post in site.related_posts limit: 4 %}{% if page.title != post.title %}{% if first_seen %}{% if forloop.last %} and {% else %}, {% endif %}{% endif %}<a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a>{% assign first_seen = true %}{% endif %}{% endfor %}.
+      <p><b>Did you find this post interesting?</b></p>
+
+      <p>Then you might want to check out
+	{% for post in site.related_posts limit: 4 %}{% if page.title != post.title %}{% if first_seen %}{% if forloop.last %} and {% else %}, {% endif %}{% endif %}<a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a>{% assign first_seen = true %}{% endif %}{% endfor %}.</p>
+
+      <p><b>You can also get alerts for new posts by email:</b>
+	<div id="mail-signup">
+	  <form action="//iki.us11.list-manage.com/subscribe/post?u=0df85a64c61523178e07ab829&amp;id=8ee8de9c80" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+	    <div class="input-append">
+	      <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+	      <input type="submit" value="Subscribe" name="subscribe" class="btn">
+	    </div>
+	    <div style="position: absolute; left: -5000px;"><input type="text" name="b_0df85a64c61523178e07ab829_8ee8de9c80" tabindex="-1" value=""></div>
+	  </form>
+	</div>
+      </p>
     </div>
     {% endif %}
-
 
     <hr>
     <div class="pagination">
@@ -53,7 +68,6 @@
       {% endif %}
       </ul>
     </div>
-    <hr>
     {% include JB/comments %}
   </div>
 </div>

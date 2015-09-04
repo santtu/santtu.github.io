@@ -9,7 +9,7 @@ description: "This is the personal blog of Santeri Paavolainen, mostly concerned
 
 <div id="recent">
 <ul>
-{% for post in site.posts limit:3 %}
+{% for post in site.posts limit:4 %}
 {% include post_slug %}
 {% endfor %}
 </ul>
