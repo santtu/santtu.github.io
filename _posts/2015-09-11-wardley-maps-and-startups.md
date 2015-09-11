@@ -3,7 +3,7 @@ title: "Wardley maps at the low end"
 tagline: "Does size matter?"
 ---
 
-I have had this nagging thought about [Wardley maps](XXX). Don't get
+I have had this nagging thought about [Wardley maps](http://blog.gardeviance.org/2015/02/an-introduction-to-wardley-value-chain.html). Don't get
 me wrong, I love Wardley maps! For example I have found the concept of
 evolution to give me insight into a lot of both recent and older
 events both generally in the technology sector as well as in business
@@ -67,14 +67,14 @@ hang-arounds has become clear.</small>
 Once you have a Wardley maps of your business and the surrounding
 business ecosystem, there are several possibilities on how to use it:
 
-1. [Manipulate](XXX) the playing field to your own advantage.
-2. [Anticipate](XXX) developments that will occur and potential
+1. [Manipulate](http://blog.gardeviance.org/2015/05/on-61-different-forms-of-gameplay.html) the playing field to your own advantage.
+2. [Anticipate](http://blog.gardeviance.org/2015/05/on-61-different-forms-of-gameplay.html) developments that will occur and potential
    actions by competitors.
-3. Decide what to [purchase or outsource](XXX) and what to do internally.
-4. Select best [models](XXX) to use for internal work.
-5. Choose appropriate [purchasing models](XXX) for external sourcing.
-6. Define [teams](XXX), their goals and responsibilities.
-7. Define [roles and hiring profiles](XXX) for different teams.
+3. Decide what to [purchase or outsource](http://blog.gardeviance.org/2015/04/experiment-or-plan.html) and what to do internally.
+4. Select best [models](http://blog.gardeviance.org/2015/04/experiment-or-plan.html) to use for internal work.
+5. Choose appropriate [purchasing models](http://blog.gardeviance.org/2015/04/experiment-or-plan.html) for external sourcing.
+6. Define [teams](http://blog.gardeviance.org/2015/04/the-only-structure-youll-ever-need.html), their goals and responsibilities.
+7. Define [roles and hiring profiles](http://blog.gardeviance.org/2015/04/the-only-structure-youll-ever-need.html) for different teams.
 
 <figure> <a
 href="/assets/posts/wardley-map-benefits-as-a-wardley-map.svg"><img
