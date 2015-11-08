@@ -36,6 +36,13 @@ defaults:
   -
     scope:
       path: ""
+    values:
+      theme:
+        name:
+          twitter
+  -
+    scope:
+      path: ""
       type: "posts"
     values:
       layout: "post"
