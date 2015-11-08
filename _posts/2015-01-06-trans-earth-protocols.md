@@ -7,7 +7,7 @@ tags: ["networking", "internet", "future"]
 Assuming you read scifi novels — have you ever stopped, really stopped
 and thought about how the technology in those stories work? Let's skip
 the obvious things that you just have to suspend your belief over like
-ray guns, fast-than-light travel, space lifts and sentient artificial
+ray guns, faster-than-light travel, space lifts and sentient artificial
 intelligences.
 
 What I'm talking about is the small stuff. Everyday stuff. Like the
