@@ -76,7 +76,7 @@
 }
 
 figure {
-    margin: 8pt auto;
+    margin: 14pt auto;
     width: 80%;
 }
 
@@ -90,8 +90,9 @@ figure img {
 }
 
 figcaption {
-    margin-top: 4pt;
+    padding-top: 4pt;
     font-style: italic;
+    text-align: center;
 }
 
 figcaption em {
@@ -198,4 +199,29 @@ figure + p {
 
 #mail-signup .email {
     width: 40%;
+}
+
+figure img[src*="jpg"], .shadow img, img.shadow  {
+    border-radius: 2px;
+    -webkit-box-shadow: 10px 10px 98px -25px rgba(0,0,0,0.5);
+    -moz-box-shadow: 10px 10px 98px -25px rgba(0,0,0,0.5);
+    box-shadow: 10px 10px 98px -25px rgba(0,0,0,0.5);
+}
+
+body {
+    font-size: 11pt;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.shout {
+    margin: .75em 2em;
+    font-size: 20pt;
+    line-height: normal;
+    font: impact, sans-serif;
+    text-align: center;
+    color: #555;
+}
+
+.footnotes {
+    font-size: smaller;
 }
