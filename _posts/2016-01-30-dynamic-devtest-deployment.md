@@ -117,12 +117,6 @@ to drop the service name.
 Sprint demo coming up? Merge `master` to `demo`, push and it'll be up
 in a jiffy.
 
-<br/>
-
-> **I am hiring Python developers to work in our development team at
-> Finland.** As you might have guessed, we use Docker, AWS and of
-> course, Python. [Check out the job posting](bit.ly/1RSEnym).
-
 ----
 
 [^examplecom]: Not `example.com` in reality, of course.
