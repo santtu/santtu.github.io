@@ -5,6 +5,10 @@ tagline: "How to introduce a subtle race condition"
 tags: ["erlang", "network", "programming", "concurrency"]
 ---
 
+**Updated 2016-02-16: I have added more explanations below pointing
+out that the race condition I describe will only affect sockets with
+`{active, once}` option. See below.**
+
 I'll once again share a small gotcha moment from recent programming
 experiences. This comes from my jab at [Erlang programming](
 {% post_url 2014-03-03-experiences-in-erlang %}) and concerns about a
@@ -196,6 +200,33 @@ successfully sent it and is expecting a reply).
 > over the Internet and difficult even on a local network (the network
 > I used has ~150 µs average packet latency).
 
+**The next few paragraphs were added on 2016-02-16. My thanks to
+Robert Gionea for pointing out the distinction between `{active,
+true}` and `{active, once}` in how parent process queue is handled.**
+
+Robert's email got me looking much more closely on the bug and digging
+deep into Erlang runtime's internals which means I can now give out
+the exact conditions what cause the bug to occur — there are two
+conditions that need to hold so that the code above may lose a packet
+due to a race condition:
+
+1. SMP is enabled (enabled automatically on multicore/multiprocessor
+   systems).
+2. Child process modifies socket's `active` state **while** socket's
+   ownership is being transferred (parent calls
+   `gen_tcp:controlling_process`.)
+
+See [ERL-90](http://bugs.erlang.org/browse/ERL-90) bug report for
+much, much more in-depth description of the actual underlying
+problem - it has surprisingly old roots, probably being the side
+effect of introduction of SMP capability introducing a new failure
+mode to `gen_tcp:controlling_process` that was not fully appreciated
+at that time. The fix discussed below prevents the second condition
+from happening and thus also prevents the race condition from
+occurring.
+
+(End of 2016-02-16 edit.)
+
 ### De-bugged versions of the server code
 
 Fixing this is easy once the problem is identified: just add a
@@ -203,7 +234,7 @@ synchronization barrier to ensure that `connection_loop` won't be
 called until the parent process has relinquished its control on the
 socket:
 
-~~~ erlang
+~~~erlang
 %% Version spawning off a process to handle the connection.
 server_loop(S) ->
     {ok,C} = gen_tcp:accept(S),
@@ -219,7 +250,7 @@ write the code so the race condition never occurs. First one is to
 eliminate the need to use `controlling_process` by spawning a new
 process for the listener instead:
 
-~~~ erlang
+~~~erlang
 %% Version using the current process to handle the connection, passing socket
 %% listening to a spawned process instead.
 server_loop(S) ->
@@ -230,7 +261,7 @@ server_loop(S) ->
 
 and the other is to **not** use active sockets at all:
 
-~~~ erlang
+~~~erlang
 %% Version eliminating active sockets completely using gen_tcp:recv only.
 server_loop(S) ->
     {ok,C} = gen_tcp:accept(S),
