@@ -5,9 +5,9 @@ tagline: "How to introduce a subtle race condition"
 tags: ["erlang", "network", "programming", "concurrency"]
 ---
 
-**Updated 2016-02-16: I have added more explanations below pointing
-out that the race condition I describe will only affect sockets with
-`{active, once}` option. See below.**
+**Updated 2016-02-16: I have added more details pointing out the exact
+conditions under which the race condition I describe can be
+triggered. See below.**
 
 I'll once again share a small gotcha moment from recent programming
 experiences. This comes from my jab at [Erlang programming](
