@@ -206,8 +206,8 @@ works **both** in JVM environment (at JVM speeds!)  **and** in
 JavaScript (both in browser and nodejs). Only a very small amount of
 glue was needed in the actual JS-only land, although since the user
 interface part does interface with browser, it is very much aware of
-the javascript-isms of the browser environment (`document` variable
-and so on).
+the javascript-isms of the browser environment (global variables and
+so on).
 
 While undoubtedly the Scala.JS version of simulation is slower than a
 hand-written javascript code, I considered writing code in Scala much
