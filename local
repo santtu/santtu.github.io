@@ -1,2 +1,3 @@
 #!/bin/bash -e
-jekyll serve --watch --config _config.yml,_local_config.yml "$@"
+##jekyll serve --watch --config _config.yml,_local_config.yml "$@"
+bundle exec jekyll serve --watch --config _config.yml,_local_config.yml "$@"
