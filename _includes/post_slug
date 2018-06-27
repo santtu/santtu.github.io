@@ -5,7 +5,6 @@
 {% if post.tagline %}
 <span class="tagline">{{ post.tagline }}</span>
 {% endif %}
-</a>
 {% if post.excerpt %}
 <div class="excerpt">
 <a href="{{post_url}}" class="text">{{ post.excerpt | strip_html | truncatewords: 50 }}</a>
