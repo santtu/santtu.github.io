@@ -148,7 +148,7 @@ included several AWS staff, too.
 
 How to fix? AWS Summits are clearly a way forward, maybe they could be
 developed and promoted further, turn them from one-day events to
-two-day events? Have them more frequently in a geographical location,
+two-day events? Have them more frequently and all over the globe,
 so there would be no incentive to attend *every* one of nearby ones?
 
 Move re:Invent to another, more compact location?
