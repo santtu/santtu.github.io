@@ -119,7 +119,7 @@ improved from last year.
   practically **all the time** literally a highly visible guide within
   20 paces of you. While the number of staff seems excessive at times,
   they are definitely helpful and useful. I realized I've come to
-  realize almost completely on them instead of even trying to check
+  almost completely on them instead of even trying to check
   the venue map on the flaky wifi.
 
 * Better transport than last year. I wasn't here last year, but people
